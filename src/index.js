@@ -1,6 +1,6 @@
 
 const analyzeCommits = (pluginConfig, context) =>{
-  console.log("pluginConfig:", pluginConfig)
+  // console.log("pluginConfig:", pluginConfig)
   const { subjectFilter, type } = pluginConfig
   const { commits } = context
   // console.log("context:", context)
